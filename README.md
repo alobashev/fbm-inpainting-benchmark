@@ -1,6 +1,7 @@
 # Fractional Brownian Motion-Based Inpainting
 
 This repository provides implementations of diffusion-based inpainting methods for reconstructing incomplete Euclidean distance matrices (EDMs) of fractional Brownian motion (fBm), as presented at [NeurIPS 2024](https://neurips.cc/virtual/2024/100031). The proposed methods leverage the intrinsic memory properties of fBm to perform statistical imputation, outperforming standard bioinformatics techniques in applications such as chromosomal segment reconstruction.
+
 ## Overview
 Fractional Brownian motion (fBm) is a stochastic process with both randomness and long-range correlations. This project examines how diffusion models can effectively reconstruct missing data in corrupted fBm-derived EDMs. The framework is evaluated on synthetic and experimental datasets, including:
 - A dataset of fBm-derived EDMs at various memory exponents (H values).
