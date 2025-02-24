@@ -13,7 +13,7 @@ Fractional Brownian motion (fBm) is a stochastic process with both randomness an
 - Provides scripts to generate and evaluate corrupted EDMs.
 - Computes **Frechet Inception Distance (FID)** to assess the quality of reconstructions.
 
-![Fig0](images/fig0.png)
+![Fig0](figures/fig0.png)
 
 ## Workflow
 1. **Dataset Generation:** Use `generate_exact_distance_matrices.py` to create fBm-derived EDMs.
